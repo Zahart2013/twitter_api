@@ -28,7 +28,3 @@ def file_manager():
             current_location = current_location + "[\"" + command + "\"]"
             last_command_len = len(command) + 4
         print(current_location)
-
-
-if __name__ == '__main__':
-    file_manager()
